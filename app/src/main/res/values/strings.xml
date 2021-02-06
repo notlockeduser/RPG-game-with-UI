@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">androidProject</string>
+    <string name="app_name">Battle</string>
+    <string name="newGame">Новая игра</string>
+    <string name="exitGame">Выход</string>
+    <string name="loadGame">Загрузить игру</string>
+    <string name="sNewGame">Новая игра</string>
+    <string name="sLoadGame">Загрузка игры</string>
+    <string name="sExit">Выход</string>
+    <string name="sChooseSettings">Выберите характеристики персонажа</string>
+    <string name="sNameGamer">Имя персонажа</string>
+    <string name="sKnight">Рыцарь</string>
+    <string name="sArcher">Лучник</string>
+    <string name="sMag">Маг</string>
+    <string name="sNext">Дальше</string>
+    <string name="sChooseOption">Выберите действие</string>
+    <string name="sGoToShop">Пойти в магазин</string>
+    <string name="sNowModel">Показать текущие показатели</string>
+    <string name="sGoToBattle">Пойти в битву</string>
+    <string name="sSaveGame">Сохранить игру</string>
 </resources>

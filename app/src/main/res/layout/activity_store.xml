@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Store">
 
     <LinearLayout
-        android:layout_width="233dp"
-        android:layout_height="314dp"
-        android:layout_marginTop="92dp"
-        android:layout_marginEnd="68dp"
+        android:layout_width="285dp"
+        android:layout_height="580dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
@@ -20,32 +20,24 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15sp"
-            android:text="ProjectBattle"
-            android:textColor="#270F0F"
+            android:text="@string/sChooseOption"
+            android:layout_marginBottom="22sp"
+            android:textColor="#000702"
             android:textSize="28sp" />
 
         <Button
-            android:id="@+id/bNewGame"
+            android:id="@+id/bGoToBattle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30sp"
+            android:layout_marginBottom="8sp"
             android:onClick="onClick"
-            android:text="@string/sNewGame" />
+            android:text="Купить помощников" />
 
         <Button
-            android:id="@+id/bLoadGame"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="30sp"
-            android:onClick="onClick"
-            android:text="@string/sLoadGame" />
-
-        <Button
-            android:id="@+id/bExitGame"
+            android:id="@+id/bGoToSimpleBattle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="@string/sExit" />
+            android:text="Продать помощников" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

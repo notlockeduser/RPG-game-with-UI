@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainFuncMenu">
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="580dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Уровень 0" />
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Деньги 200" />
+
+            <TextView
+                android:id="@+id/helpers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Помощники 0/3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sChooseOption"
+            android:textColor="#000702"
+            android:layout_marginBottom="20sp"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/bGoToShop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickGoToShop"
+            android:layout_marginBottom="8sp"
+            android:text="@string/sGoToShop" />
+
+        <Button
+            android:id="@+id/bPrintListStats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:onClick="onClickStats"
+            android:text="@string/sNowModel" />
+
+        <Button
+            android:id="@+id/bGoToBattle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:onClick="onClickGoToBattle"
+            android:text="@string/sGoToBattle" />
+
+        <Button
+            android:id="@+id/bSaveGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:onClick="onClickSave"
+            android:text="@string/sSaveGame" />
+
+        <Button
+            android:id="@+id/bExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:onClick="onClickExit"
+            android:text="@string/sExit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
